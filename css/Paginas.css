@@ -1,0 +1,54 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('fondo.jpg'); /* Asegúrate de actualizar la ruta */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Asegura que la imagen de fondo se mantenga fija */
+}
+
+.form-container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad para el contenido */
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px; /* Mantiene el margen normal */
+    margin-left: 0; /* Asegura que el contenedor esté a la izquierda */
+    position: relative; /* Permite la alineación */
+    left: 0; /* Posiciona el contenedor a la izquierda */
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }

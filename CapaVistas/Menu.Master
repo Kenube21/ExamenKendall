@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="ExamenKendall.CapaVistas.Menu" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../css/Menu.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <body>
+              <nav>
+                <div class="navbar">
+                  <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                      <span class="line line1"></span>
+                      <span class="line line2"></span>
+                      <span class="line line3"></span>
+                    </div>
+                    <div class="logo">
+                      <h1>Votaciones</h1>
+                    </div>
+                    <div class="menu-items">
+                      <li><a href="Inicio.aspx">Inicio</a></li>
+                      <li><a href="CandidatosVista.aspx">Candidatos</a></li>
+                      <li><a href="VotacionesVista.aspx">Votos</a></li>
+                      <li><a href="ResultadosVista.aspx">Resultados</a></li>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </body>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
